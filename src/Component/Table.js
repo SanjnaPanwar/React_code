@@ -28,7 +28,7 @@ export default function Table() {
           <th className='th' >SNo.</th>
           <th className='th'>FirstName</th>
           <th className='th'>LastName</th>
-          <th className='th'>Deparment</th>
+          <th className='th'>Company</th>
           <th className='th'>Edit</th>
           <th >Delete</th>
         </tr>
@@ -39,7 +39,7 @@ export default function Table() {
               <td className='td'>{i + 1}</td>
               <td className='td'>{data.FirstName}</td>
               <td className='td'>{data.LastName}</td>
-              <td className='td'>{data.Deparment}</td>
+              <td className='td'>{data.Company}</td>
               <td className='td'>
                 <button>Edit</button>
               </td>
